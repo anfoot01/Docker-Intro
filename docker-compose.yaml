@@ -1,0 +1,6 @@
+version: 3
+service:
+nodeapp:
+  build:
+    dockerfile: ./nodejs/Dockerfile
+    #  image: node:22-alpine
